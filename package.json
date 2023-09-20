@@ -6,9 +6,13 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "Brad Traversy",
+  "author": "Brian Cordisco",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^29.6.1"
+    "jest": "^29.6.1",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
