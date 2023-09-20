@@ -1,3 +1,12 @@
-function findMaxNumber() {}
+function findMaxNumber(arr) {
+
+for (let index = 0; index < arr.length; index++) {
+    const element = arr[index];
+    console.log(element.sorted());
+}
+  
+    
+    
+}
 
 module.exports = findMaxNumber;
