@@ -6,13 +6,11 @@ function swap(array, index1, index2) {
 
 
 function arrayIntersection(arrOne, arrTwo) {
-    var newArray = new Array()
+    var newArray = [];
 
     for (let i = 0; i < arrOne.length; i++) {
-        for (let j = 0; j <= arrTwo.length; j++) {
-            if (arrOne[i] === arrTwo[j]) {
-                newArray.push(arrTwo[j])
-            }
+        if (arrTwo.includes(arrOne[i]) && !newArray.includes(arrOne[i])) {
+            newArray.push(arrOne[i])
         }
     }
     return newArray;
