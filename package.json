@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "Brian Cordisco",
+  "author": "Me MFer",
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.6.1",
