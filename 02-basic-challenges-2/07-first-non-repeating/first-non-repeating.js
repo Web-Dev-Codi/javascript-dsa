@@ -1,3 +1,6 @@
-function findFirstNonRepeatingCharacter() {}
+function findFirstNonRepeatingCharacter(string) {
+
+}
 
 module.exports = findFirstNonRepeatingCharacter;
+
